@@ -9,9 +9,5 @@ RUN chmod +x app.py
 
 LABEL maintainer="Nick Kou <nickkounz@gmail.com>" \
     version="1.0"
-    
-EXPOSE 5000
-
-ENV PORT 5000
 
 ENTRYPOINT [ "python", "app.py" ]
